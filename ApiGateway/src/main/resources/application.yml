@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    first:
+      path: /v1/company/**
+      serviceId: COMPANY_SERVICE
+    second:
+      path: /v1/users/**
+      serviceId: USER_SERVICE
