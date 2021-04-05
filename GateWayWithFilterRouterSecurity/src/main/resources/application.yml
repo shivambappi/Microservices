@@ -1,0 +1,8 @@
+eureka:
+  server:
+    enable-self-preservation: false
+    
+  client:
+    eureka-server-connect-timeout-seconds: 2
+    
+  
